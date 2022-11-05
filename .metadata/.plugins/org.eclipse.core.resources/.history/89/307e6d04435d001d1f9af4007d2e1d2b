@@ -1,0 +1,11 @@
+package dev.simplesolution.sftp.controller;
+
+@RestController  
+public class HelloWorldController   
+{  
+@RequestMapping("/")  
+public String hello()   
+{  
+return "Hello javaTpoint";  
+}  
+}  
